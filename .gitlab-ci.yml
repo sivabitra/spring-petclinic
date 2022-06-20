@@ -7,5 +7,5 @@ fetch dependencies:
     script:
         - mvn test
 
-    tag:
+    tags:
         - kas-ubuntu
