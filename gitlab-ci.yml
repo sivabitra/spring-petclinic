@@ -6,3 +6,6 @@ fetch dependencies:
 
     script:
         - mvn test
+
+    tag:
+        - kas-ubuntu
