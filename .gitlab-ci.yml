@@ -1,0 +1,11 @@
+stages:
+    - compile
+    - package
+fetch dependencies:
+    stage: compile
+
+    script:
+        - mvn test
+
+    tags:
+        - kas-ubuntu
